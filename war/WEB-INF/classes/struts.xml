@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+
+    <package name="default" extends="json-default, struts-default" namespace="/">
+      
+        
+        <action name="playersignup" class="com.appspot.gameclosureinsim.controller.playersignup">
+            <result name="success" type="json"></result>
+            <result name="error" type="json"></result>
+        </action>
+        
+        <action name="calculate" class="com.appspot.gameclosureinsim.controller.calculate">
+            <result name="success" type="json"></result>
+            <result name="error" type="json"></result>
+        </action>
+
+        
+        <action name="adminInit" class="com.appspot.gameclosureinsim.controller.adminInit">
+            <result name="success">/admin.jsp</result>
+            <result name="error">/admin.jsp</result>
+        </action>   
+      		
+    </package>
+
+</struts>

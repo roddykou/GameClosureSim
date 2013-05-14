@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+  <title>Game Closure Sim</title>
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+  <script src="js/bootstrap.js"></script>
+  <script src="js/player.js"></script>
+
+</head>
+
+<body bgcolor="#F2F2F2">
+  <div class="row" align="center">
+     <div  style="border: 1px solid gray; width:270px;"> 
+        
+          <table align="center">
+            <tr>
+              <td><h3 style="color: #610B0B;">Player Info</h3></td>
+            </tr>
+            <tr>
+              <td > <input type="text" id="username" name="User Name" placeholder="User Name"></td>
+            </tr>
+            <tr>
+              <td><input type="email" type="email" id="email" name="email" placeholder="email address"></td>
+            </tr>
+            <tr>
+              <td><input type="text" id="offer" name="offer" placeholder="offer"></td>
+            </tr>
+            <tr>
+              <td><input type="text" id="receive" name="receive" placeholder="receive"></td>
+            </tr>
+            <tr>
+              <td><input type="submit" id="signUp" value="Get Started!" 
+                style="background-color:#B40404; color:#ffffff; 
+                width:210px;text-algin:center"></td>
+            </tr>
+          </table>   
+        
+        <div id="errorList"></div>
+    </div>
+    <!-- end of Player Info -->
+    
+    <!-- start of result -->
+    <div > 
+        <p class="text-info" id = "result" ><h4>Game Results:</h4></p>
+    </div>
+  </div> <!-- end of row -->
+    
+  <footer>
+    <div class="containter" align="center">
+      <div class="span9 offset2" style="margin-top:20px">
+        <hr>
+        <p class="pull-left">Game Closure Sim.2013.</p>&nbsp; &nbsp; &nbsp;
+        <p class="pull-right">Zheng Kou, Carnegie Mellon University.</p>
+      </div>
+    </div>  
+  </footer>
+</body>
+</html>
