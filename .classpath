@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="com.google.appengine.eclipse.core.GAE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.datatools.connectivity.jdt.DRIVERLIBRARY/Driver (EasyEatCMU.GoogleCloudSQL.AppEngineInstance)"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/EclipseLink 2.4.1 - Juno">
+		<attributes>
+			<attribute name="owner.project.facets" value="jpt.jpa"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Struts"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/HttpClient"/>
+	<classpathentry kind="lib" path="/Users/remonx/Downloads/eclipse/plugins/com.google.appengine.eclipse.sdkbundle_1.7.6/appengine-java-sdk-1.7.6/lib/tools/jsp/repackaged-appengine-jakarta-jstl-1.1.2.jar"/>
+	<classpathentry kind="lib" path="/Users/remonx/Downloads/eclipse/plugins/com.google.appengine.eclipse.sdkbundle_1.7.6/appengine-java-sdk-1.7.6/lib/tools/jsp/repackaged-appengine-jakarta-standard-1.1.2.jar"/>
+	<classpathentry kind="output" path="war/WEB-INF/classes"/>
+</classpath>
